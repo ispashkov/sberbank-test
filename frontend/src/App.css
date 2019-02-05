@@ -1,0 +1,41 @@
+html {
+  font-family: Verdana, serif;
+}
+
+#root {
+  padding: 14px;
+}
+
+.selection select {
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 250px;
+}
+
+.selection button, .selection select {
+  margin-left: 6px;
+}
+
+#quotes {
+  margin-top: 15px;
+}
+
+.quote {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #eee;
+  width: 350px;
+}
+
+.quote > .header {
+  background: #eee;
+  padding: 4px;
+}
+
+.quote > .header > h4 {
+  margin-left: 0;
+}
+
+.quote > .header > button {
+  float: right
+}

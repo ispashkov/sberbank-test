@@ -1,0 +1,14 @@
+{
+  "name": "quotations-tracker-backend",
+  "version": "1.0.0",
+  "description": "Qutations tracker endpoints",
+  "main": "server.js",
+  "scripts": {
+    "server": "node ./server.js"
+  },
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
